@@ -1,0 +1,80 @@
+body {
+    background-color: rgba(255, 229, 180, 0.2);
+}
+.navbar-brand {
+    font-size: 2.2rem;
+    margin-left: 20px;
+}
+.navbar {
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    background-color:#A98FBF;
+}
+
+.navbar:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+.navbar-brand:hover{
+    color:palegreen;
+}
+.nav-link:hover {
+    color: palegreen;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+td, th {
+    border: 1px solid darkgrey;
+    padding: 8px;
+}
+td:hover, th:hover {
+    background-color: lavenderblush;
+}
+
+.addAndSave
+{
+    background-color:#A98FBF;
+    color:#FFF;
+}
+.addAndSave:hover
+{
+    background-color:palegreen;
+    color:#000;
+}
+.MainActionBtn
+{
+    background-color:paleturquoise;
+    color:#000;
+}
+.MainActionBtn {
+    background-color: darkturquoise;
+}
+.MainActionBtn:hover
+{
+    background-color:paleturquoise;
+    color:#000;
+}
+.dltBtn
+{
+    background-color:palevioletred;
+    color:#000;
+}
+.dltBtn:hover
+{
+    background-color:#F2C6C5    ;
+}
+.edtBtn
+{
+    background-color:goldenrod;
+    color:#000;
+}
+.edtBtn:hover
+{
+    background-color:palegoldenrod;
+}

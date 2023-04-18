@@ -3,8 +3,9 @@ import React from "react";
 const authors = (props) => {
     return(
         <div className={"container mm-4 mt-5"}>
+            <h1>Authors</h1>
             <div className={"row"}>
-                <div className={"row"}>
+                <div className={"table-responsive"}>
                     <table className={"table table-striped"}>
                         <thead>
                         <th scope={"col"}>Name</th>

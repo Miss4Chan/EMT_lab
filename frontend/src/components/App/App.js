@@ -1,9 +1,12 @@
 import './App.css';
 import React, {Component} from "react";
-import Books from "../Books/books";
+import Books from "../Books/BooksList/books";
 import Authors from "../Authors/authors";
 import Header from "../Header/header";
 import Countries from "../Countries/countries";
+import BooksAdd from "../Books/BooksAdd/booksAdd";
+import BooksEdit from "../Books/BooksEdit/booksEdit";
+import Categories from "../Categories/categories";
 import libraryService from "../../repository/libraryRepository";
 import {Navigate, Route, BrowserRouter as Router, Routes} from "react-router-dom";
 
@@ -14,24 +17,34 @@ class App extends Component{
             books:[],
             authors:[],
             countries:[],
-            selected:{}
+            categories:[],
+            selectedBook:{}
         }
 
     }
     // (Router) This is passing down of props, we take the elements of the App state and
-    // pass them as props to the children of App-->
+    // pass them as props to the children of App
     render() {
         return(
             <Router>
+                <Header/>
                 <main>
+                    <header>
                     <div className={"container"}>
                         <Routes>
-                            <Route path={"/books"} exact element={<Books books={this.state.books}/>}/>
+                            <Route path={"/books/add"} exact element={
+                                <BooksAdd categories={this.state.categories} authors={this.state.authors} onAddBook={this.addBook}/>}/>
+                            <Route path={"/books/edit/:id"} exact element={
+                                <BooksEdit categories={this.state.categories} authors={this.state.authors} onEditBook={this.editBook} book={this.state.selectedBook}/>}/>
+                            <Route path={"/books"} exact element={
+                                <Books books={this.state.books} onDelete={this.deleteBook} onEdit={this.getBook} onMark={this.markAsTaken}/>}/>
                             <Route path={"/authors"} exact element={<Authors authors={this.state.authors}/>}/>
                             <Route path={"/countries"} exact element={<Countries countries={this.state.countries}/>}/>
+                            <Route path={"/categories"} exact element={<Categories categories={this.state.categories}/>}/>
                             <Route path="/" element={<Navigate replace to="/books"/>}/>
                         </Routes>
                     </div>
+                    </header>
                 </main>
             </Router>
         );
@@ -53,7 +66,6 @@ class App extends Component{
         libraryService.fetchAuthors()
             .then((data) => {
                 this.setState({
-
                     authors: data.data
                 });
             });
@@ -67,11 +79,53 @@ class App extends Component{
                 });
             });
     }
+    loadCategories = () => {
+        libraryService.fetchCategories()
+            .then((data) => {
+                this.setState({
+                    categories: data.data
+                });
+            });
+    }
+    deleteBook = (id) => {
+        libraryService.deleteBook(id)
+            .then((data)=>{
+                this.loadBooks();
+            });
+    }
+    addBook = (name, category, authorId, availableCopies) => {
+        libraryService.addBook(name, category, authorId, availableCopies)
+            .then(() => {
+                this.loadBooks();
+            })
+    }
+
+    getBook = (id) => {
+        libraryService.getBook(id)
+            .then((data) => {
+                this.setState({
+                    selectedBook : data.data
+                })
+            })
+    }
+
+    editBook = (id, name, category, authorId, availableCopies) => {
+        libraryService.editBook(id, name, category, authorId, availableCopies)
+            .then(() => this.loadBooks())
+    }
+
+    markAsTaken = (id) => {
+        libraryService.markAsTaken(id)
+            .then(() => {
+                this.loadBooks()
+            });
+    }
 
     componentDidMount() {
         this.loadBooks();
         this.loadAuthors();
         this.loadCountries();
+        this.loadCategories();
     }
 }
 export default App;

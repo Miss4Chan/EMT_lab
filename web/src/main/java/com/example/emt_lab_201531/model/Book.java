@@ -15,18 +15,16 @@ public class Book {
     @Enumerated(value = EnumType.STRING)
     private BookCategory category;
     private String name;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     private Author author;
     private Integer availableCopies;
-
-    public Book( String name, BookCategory category,Author author, Integer availableCopies) {
-        this.category = category;
-        this.name = name;
-        this.author = author;
-        this.availableCopies = availableCopies;
-    }
-
     public Book() {
 
+    }
+    public Book(String name, BookCategory category, Author author, Integer availableCopies) {
+        this.name = name;
+        this.category = category;
+        this.author = author;
+        this.availableCopies = availableCopies;
     }
 }
