@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6adc1d7-a1ff-4640-895b-f8caac962f1d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Authors/authors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Books/books.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Countries/countries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/custom-axios/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/repository/libraryRepository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/web/AuthorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/web/CountryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/web/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/web/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/web/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/EmtLab201531Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/EmtLab201531Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/dataHolder/DataHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/dataHolder/DataHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/model/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/model/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/model/dto/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/model/dto/BookDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/model/enums/BookCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/model/enums/BookCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/model/enums/ContinentEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/model/enums/ContinentEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/model/exceptions/AuthorNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/model/exceptions/AuthorNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/model/exceptions/BookNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/model/exceptions/BookNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/model/exceptions/CountryNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/model/exceptions/CountryNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/model/exceptions/NoAvailableCopiesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/model/exceptions/NoAvailableCopiesException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/repository/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/repository/AuthorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/repository/CountryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/repository/CountryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/service/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/service/CountryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/service/CountryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/service/impl/AuthorServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/service/impl/AuthorServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/service/impl/BookServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/service/impl/BookServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/service/impl/CountryServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/service/impl/CountryServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emt_lab_201531/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/example/emt_lab_201531/web/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/emt_lab_201531/EmtLab201531ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/test/java/com/example/emt_lab_201531/EmtLab201531ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/EmtLab201531Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/EmtLab201531Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/dataHolder/DataHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/dataHolder/DataHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/model/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/model/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/model/dto/BookDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/dto/BookDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/model/enums/BookCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/enums/BookCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/model/enums/ContinentEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/enums/ContinentEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/model/exceptions/AuthorNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/exceptions/AuthorNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/model/exceptions/BookNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/exceptions/BookNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/model/exceptions/CountryNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/exceptions/CountryNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/model/exceptions/NoAvailableCopiesException.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/exceptions/NoAvailableCopiesException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/repository/AuthorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/repository/AuthorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/repository/BookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/repository/CountryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/repository/CountryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/service/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/AuthorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/service/CountryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/CountryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/service/impl/AuthorServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/impl/AuthorServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/service/impl/BookServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/impl/BookServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/service/impl/CountryServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/impl/CountryServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/emt_lab_201531/web/HomeController.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2OSivN2IhAn573Ycy3c0orwolsu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6adc1d7-a1ff-4640-895b-f8caac962f1d" name="Changes" comment="" />
+      <created>1681560620811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681560620811</updated>
+      <workItem from="1681560628465" duration="402000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
