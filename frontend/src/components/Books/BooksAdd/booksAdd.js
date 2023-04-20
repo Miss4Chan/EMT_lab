@@ -30,8 +30,8 @@ const booksAdd = (props) => {
     }
 
     return(
-        <div className="row mt-5">
-            <div className="col-md-5">
+        <div className="row">
+            <div className="col-md-5 mx-auto">
                 <form onSubmit={onFormSubmit}>
                     <div className="form-group">
                         <label htmlFor="name">Book name</label>
@@ -79,7 +79,6 @@ const booksAdd = (props) => {
                 </form>
             </div>
         </div>
-
     )
 }
 

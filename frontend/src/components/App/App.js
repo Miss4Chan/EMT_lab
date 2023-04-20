@@ -18,7 +18,8 @@ class App extends Component{
             authors:[],
             countries:[],
             categories:[],
-            selectedBook:{}
+            selectedBook:{},
+            isDarkMode: false
         }
 
     }
@@ -26,8 +27,9 @@ class App extends Component{
     // pass them as props to the children of App
     render() {
         return(
+            <div className="App">
             <Router>
-                <Header/>
+                <Header isDarkMode={this.state.isDarkMode} toggleDarkMode={this.toggleDarkMode}/>
                 <main>
                     <header>
                     <div className={"container"}>
@@ -47,9 +49,20 @@ class App extends Component{
                     </header>
                 </main>
             </Router>
+            </div>
         );
     }
-
+    toggleDarkMode = () => {
+        this.setState(prevState => ({ isDarkMode: !prevState.isDarkMode }));
+    }
+    componentDidUpdate() {
+        const body = document.querySelector('body');
+        if (this.state.isDarkMode) {
+            body.classList.add('dark-mode');
+        } else {
+            body.classList.remove('dark-mode');
+        }
+    }
 
     //Each of these methods calls a corresponding method on the libraryService object
     // and sets the state of the App component with the data that is returned by the API

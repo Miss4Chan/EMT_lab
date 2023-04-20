@@ -1,5 +1,7 @@
+/*Light mode*/
 body {
     background-color: rgba(255, 229, 180, 0.2);
+    color:#000000;
 }
 .navbar-brand {
     font-size: 2.2rem;
@@ -32,6 +34,7 @@ table {
 td, th {
     border: 1px solid darkgrey;
     padding: 8px;
+    color: black;
 }
 td:hover, th:hover {
     background-color: lavenderblush;
@@ -77,4 +80,104 @@ td:hover, th:hover {
 .edtBtn:hover
 {
     background-color:palegoldenrod;
+}
+
+
+
+
+
+
+/*Dark mode*/
+.dark-mode  {
+    background-color: rgba(27, 3, 42, 0.72);
+    color:#ddd;
+}
+.dark-mode .navbar-brand {
+    font-size: 2.2rem;
+    margin-left: 20px;
+}
+.dark-mode .navbar {
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: #2f0244;
+}
+
+.dark-mode .navbar:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+.dark-mode .navbar-brand:hover{
+    color: #3d673d;
+}
+.dark-mode .nav-link:hover {
+    color: #3d673d;
+}
+.dark-mode .nav-link{
+    font-size: 1.2rem;
+}
+.dark-mode table {
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode td, .dark-mode th {
+    border: 1px solid darkgrey;
+    padding: 8px;
+    color:#ddd;
+}
+.dark-mode .table-striped tbody tr:nth-of-type(odd) td,
+.dark-mode .table-striped tbody tr:nth-of-type(even) td
+{
+    color:#ddd;
+}
+.dark-mode td:hover, .dark-mode th:hover {
+    background-color: #21012f;
+}
+
+.dark-mode .addAndSave
+{
+    background-color: #2f0244;
+}
+.dark-mode .addAndSave:hover
+{
+    background-color: #3d673d;
+}
+.dark-mode .MainActionBtn
+{
+    background-color:paleturquoise;
+    color:#ddd;
+}
+.dark-mode .MainActionBtn {
+    background-color: #2d6262;
+}
+.dark-mode .MainActionBtn:hover
+{
+    background-color: #62a4a4;
+    color:#000;
+}
+.dark-mode .dltBtn
+{
+    background-color: #b75d7a;
+    color:#ddd;
+}
+.dark-mode .dltBtn:hover
+{
+    background-color: #cca3a2;
+    color:#000;
+}
+.dark-mode .edtBtn
+{
+    background-color: #a8801d;
+    color:#ddd;
+}
+.dark-mode .edtBtn:hover
+{
+    background-color: #ada76e;
+    color:#000;
+}
+.dark-mode .form-control
+{
+    background: #444444;
+    color: white;
+    border-color: #2f0244;
 }

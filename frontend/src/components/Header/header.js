@@ -1,16 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faMoon} from "@fortawesome/free-solid-svg-icons";
-
+import {faSun, faMoon} from "@fortawesome/free-solid-svg-icons";
 
 const header = (props) => {
-    // const toggleDarkMode = () => {
-    //     const body = document.querySelector('body');
-    //     const darkContainer = document.querySelector('#dark-container');
-    //     body.classList.toggle('dark-mode');
-    //     darkContainer.classList.toggle('dark-mode');
-    // }
     return (
         <header>
             <nav className="navbar navbar-expand-md navbar-dark">
@@ -34,9 +27,12 @@ const header = (props) => {
                         <li className="nav-item">
                             <Link className="nav-link" to={"/categories"}>Categories</Link>
                         </li>
-                        {/*<li className="nav-item">*/}
-                        {/*    <button className="nav-link" onClick={toggleDarkMode}> <FontAwesomeIcon icon={faMoon} size="lg" style={{color: "#24c1e0",}} /> </button>*/}
-                        {/*</li>*/}
+                        <li className="nav-item">
+                            <Link className="nav-link" onClick={props.toggleDarkMode}>
+                                <FontAwesomeIcon icon={props.isDarkMode ? faSun : faMoon} className="mr-1"/>
+                                {props.isDarkMode ? 'Light' : 'Dark'}
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
