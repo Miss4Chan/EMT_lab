@@ -29,8 +29,7 @@ const header = (props) => {
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" onClick={props.toggleDarkMode}>
-                                <FontAwesomeIcon icon={props.isDarkMode ? faSun : faMoon} className="mr-1"/>
-                                {props.isDarkMode ? 'Light' : 'Dark'}
+                                <FontAwesomeIcon icon={props.isDarkMode ? faSun : faMoon} className="fa-lg"/>
                             </Link>
                         </li>
                     </ul>

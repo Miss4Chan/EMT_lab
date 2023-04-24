@@ -97,13 +97,13 @@ td:hover, th:hover {
     margin-left: 20px;
 }
 .dark-mode .navbar {
-    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 4px 8px rgba(255, 247, 247, 0.1);
     transition: box-shadow 0.3s ease-in-out;
     background-color: #2f0244;
 }
 
 .dark-mode .navbar:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 16px rgba(236, 230, 230, 0.4);
 }
 .dark-mode .navbar-brand:hover{
     color: #3d673d;

@@ -8,27 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Books/BooksAdd/booksAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Books/BooksAdd/booksAdd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Books/BooksEdit/booksEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Books/BooksEdit/booksEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Books/BooksList/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Books/BooksList/books.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/EmtLab201531Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/EmtLab201531Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/dataHolder/DataHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/dataHolder/DataHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/Author.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/Country.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/dto/BookDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/dto/BookDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/enums/BookCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/enums/BookCategory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/enums/ContinentEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/enums/ContinentEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/model/exceptions/BookNotFoundException 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/repository/BookRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/AuthorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/CountryService 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/CountryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/CountryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/impl/AuthorServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/impl/AuthorServiceImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/impl/CountryServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/service/impl/CountryServiceImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/web/AuthorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/web/AuthorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/web/CountryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/example/emt_lab_201531/web/CountryController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,20 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "f4b78405897be3c0e360fe26182860d6"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f4b78405897be3c0e360fe26182860d6&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/src/components/Books/BooksList" />
@@ -102,7 +85,10 @@
       <updated>1681560620811</updated>
       <workItem from="1681560628465" duration="402000" />
       <workItem from="1681814399719" duration="27935000" />
-      <workItem from="1681948656771" duration="3409000" />
+      <workItem from="1681948656771" duration="3712000" />
+      <workItem from="1681993472169" duration="797000" />
+      <workItem from="1682068897748" duration="142000" />
+      <workItem from="1682328455979" duration="826000" />
     </task>
     <servers />
   </component>
